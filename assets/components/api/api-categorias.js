@@ -105,67 +105,61 @@ data = [{
             products:[{
                 id:'112',
                 name:'Black Label', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskblacklabel.png',  
                 price:180,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Red Label 1L', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskredlabel.png',  
                 price:109,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Famuous One Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskfamuousonel.png',  
                 price:25,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Ballantines Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/Whiskyballantines.png',  
                 price:99,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Old Star Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskoldstar.png',  
                 price:20,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Passport Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskpassport.png',  
                 price:55,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Black Stone Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskblackstone.png',  
                 price:35,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Master Gold Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/wiskgold.png',  
                 price:25,
                 quantidade:0, 
             },{
                 id:'112',
                 name:'Jack Daniels Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/whiskjackdaniels.png',  
                 price:120,
                 quantidade:0, 
             },{
                 id:'112',
-                name:'Contini Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
-                price:38,
-                quantidade:0, 
-            },{
-                id:'112',
                 name:'Gold Label Whisky', 
-                img:'assets/images/produtos/hotdog.png',  
+                img:'assets/images/produtos/Whiskyballantines.png',  
                 price:190,
                 quantidade:0, 
             }]
@@ -177,49 +171,49 @@ data = [{
             products:[{
                 id:'90',
                 name:'Fardo Skol', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/fardiei.png',  
                 price:36,
                 quantidade:0,
             },{
                 id:'91',
                 name:'Fardo Brahama', 
-                img:'assets/images/produtos/pastelqueijo.png',  
+                img:'assets/images/produtos/fardoheineken.png',  
                 price:38,
                 quantidade:0,
             },{
                 id:'92',
                 name:'Fardo Império', 
-                img:'assets/images/produtos/pastelbauru.png',  
+                img:'assets/images/produtos/fardopetra.png',  
                 price:37,
                 quantidade:0,
             },{
                 id:'93',
                 name:'Fardo Heineken', 
-                img:'assets/images/produtos/pastelcalabresa.png',  
+                img:'assets/images/produtos/fardoheineken.png',  
                 price:59,
                 quantidade:0,
             },{
                 id:'94',
                 name:'Fardo Original', 
-                img:'assets/images/produtos/pastelfrango.png',  
+                img:'assets/images/produtos/fardooriginal.png',  
                 price:54,
                 quantidade:0,
             },{
                 id:'95',
                 name:'Fardo Petra', 
-                img:'assets/images/produtos/pastelpizza.png',  
+                img:'assets/images/produtos/fardopetra.png',  
                 price:38,
                 quantidade:0,
             },{
                 id:'96',
                 name:'Fardo Eisenbahn', 
-                img:'assets/images/produtos/pastelbrocolis.png',  
+                img:'assets/images/produtos/fardiei.png',  
                 price:65,
                 quantidade:0,
             },{
                 id:'98',
                 name:'Fardo Spaten', 
-                img:'assets/images/produtos/pastelcarnequeijo.png',  
+                img:'assets/images/produtos/fardospaten.png',  
                 price:59,
                 quantidade:0,
             }]
@@ -231,26 +225,26 @@ data = [{
             products:[{
                 id:'103',
                 name:'Askov', 
-                img:'assets/images/produtos/pastelprestigio.png',  
+                img:'assets/images/produtos/askov.png',  
 
                 price:15,
                 quantidade:0,
             },{
                 id:'104',
                 name:'ICE', 
-                img:'assets/images/produtos/pastelchocolatenutella.png',  
+                img:'assets/images/produtos/smirnoffice.png',  
                 price:7.5,
                 quantidade:0,
             },{
                 id:'105',
                 name:'Sminorf Sabor', 
-                img:'assets/images/produtos/pastelchocolatebanana.png',  
+                img:'assets/images/produtos/smirnoffsabor.png',  
                 price:58,
                 quantidade:0,
             },{
                 id:'106',
                 name:'Sminorf Lata', 
-                img:'assets/images/produtos/pastelchocolatemorango.png',  
+                img:'assets/images/produtos/smirnofficelata.png',  
                 price:9.5,
                 quantidade:0,
             }]     
@@ -260,21 +254,15 @@ data = [{
             id:'5',
             name:'Gin',
             products:[{
-                id:'60',
-                name:'Gin', 
-                img:'assets/images/produtos/tapiocacarne.png',  
-                price:130,
-                quantidade:0,
-            },{
                 id:'61',
                 name:'Gin Tanqueray', 
-                img:'assets/images/produtos/tapiocaqueijo.png',  
+                img:'assets/images/produtos/gin.png',  
                 price:199,
                 quantidade:0,
             },{
                 id:'62',
                 name:'Gin Rose', 
-                img:'assets/images/produtos/tapiocabauru.png',  
+                img:'assets/images/produtos/ginrose.png',  
                 price:37,
                 quantidade:0,
             }]      
@@ -285,31 +273,31 @@ data = [{
             products:[{
                 id:'72',
                 name:'51 Pinga', 
-                img:'assets/images/produtos/tapiocaprestigio.png',  
+                img:'assets/images/produtos/51.png',  
                 price:18,
                 quantidade:0,
             },{
                 id:'73',
                 name:'Pitu Pinga', 
-                img:'assets/images/produtos/tapiocachocolatenutella.png',  
+                img:'assets/images/produtos/52.png',  
                 price:25,
                 quantidade:0,
             },{
                 id:'74',
                 name:'Velho Barreiro', 
-                img:'assets/images/produtos/tapiocachocolatebanana.png',  
+                img:'assets/images/produtos/53.png',  
                 price:18,
                 quantidade:0,
             },{
                 id:'75',
                 name:'Corote', 
-                img:'assets/images/produtos/tapiocachocolatemorango.png',  
+                img:'assets/images/produtos/54.png',  
                 price:5.5,
                 quantidade:0,
             },{
                 id:'76',
                 name:'Dreher', 
-                img:'assets/images/produtos/tapiocaleitecoco.png',  
+                img:'assets/images/produtos/55.png',  
                 price:21,
                 quantidade:0,
             }]       
@@ -320,36 +308,36 @@ data = [{
             products:[{
                 id:'30',
                 name:'Vinho Santome', 
-                img:'assets/images/produtos/panquecacarne.png',  
+                img:'assets/images/produtos/56.png',  
                 price:19,
                 quantidade:0,
             },{
                 id:'31',
                 name:'Vinho Cantinho do Vale', 
-                img:'assets/images/produtos/panquecaqueijo.png',  
+                img:'assets/images/produtos/57.png',  
                 price:8,
                 quantidade:0,
             },{
                 id:'31',
                 name:'Vinho Draft', 
-                img:'assets/images/produtos/panquecaqueijo.png',  
+                img:'assets/images/produtos/58.png',  
                 price:17,
                 quantidade:0,
             }]    
      
         },{  
             id:'7',
-            name:'Energético',
+            name:'Energéticos',
             products:[{
                 id:'30',
                 name:'Red Bull Energético', 
-                img:'assets/images/produtos/panquecacarne.png',  
+                img:'assets/images/produtos/59.png',  
                 price:12.5,
                 quantidade:0,
             },{
                 id:'31',
                 name:'Monster Energético', 
-                img:'assets/images/produtos/panquecaqueijo.png',  
+                img:'assets/images/produtos/60.png',  
                 price:12.5,
                 quantidade:0,
             }]    
@@ -359,33 +347,45 @@ data = [{
             name:'Refrigerante',
             products:[{
                 id:'176',
-                name:'Refrigerante Lata', 
-                img:'assets/images/produtos/minimussarela.png',  
+                name:'Coca Cola Lata', 
+                img:'assets/images/produtos/cocalata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:'176',
+                name:'Guaraná Lata', 
+                img:'assets/images/produtos/guaranalata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:'176',
+                name:'Fanta Laranja Lata', 
+                img:'assets/images/produtos/fantallata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:'176',
+                name:'Fanta Uva Lata', 
+                img:'assets/images/produtos/fantaulata.png',  
                 price:5,
                 quantidade:0,
             },{
                 id:'177',
                 name:'Tônica Lata', 
-                img:'assets/images/produtos/minipresuntomussarela.png',  
-                price:5,
-                quantidade:0,
-            },{
-                id:'178',
-                name:'Guaraná Lata', 
-                img:'assets/images/produtos/minicalabresa.png',  
+                img:'assets/images/produtos/tonicalata.png',  
                 price:5,
                 quantidade:0,
             },{
                 id:'179',
                 name:'Guaraná 1L', 
-                img:'assets/images/produtos/minibrocolis.png',  
+                img:'assets/images/produtos/guarana1l.png',  
 
                 price:10,
                 quantidade:0,
             },{
                 id:'179',
                 name:'Coca 2L', 
-                img:'assets/images/produtos/minibrocolis.png',  
+                img:'assets/images/produtos/coca2l.png',  
                 price:12,
                 quantidade:0,
             }]    
@@ -407,14 +407,14 @@ data = [{
                 id:'1',
                 key:'',
                 name:'Gelo de Coco', 
-                img:'assets/images/produtos/bebidaaguasgas.png',  
+                img:'assets/images/produtos/gelococo.png',  
                 price:4,
                 quantidade:0, 
             },{
                 id:'2',
                 key:'',
                 name:'Halls', 
-                img:'assets/images/produtos/bebidaaguacgas.png',  
+                img:'assets/images/produtos/halls.png',  
                 price:3,
                 quantidade:0, 
             }]
@@ -425,77 +425,51 @@ data = [{
             products:[{
                 id:'130',
                 name:'Salgadinho Fofura', 
-                img:'assets/images/produtos/cervejalatas.png',  
+                img:'assets/images/produtos/fofura.png',  
                 price:4, 
                 quantidade:0,
             },{
                 id:'131',
                 name:'Salgadinho Torcida', 
-                img:'assets/images/produtos/cervejaduplolata.png',  
+                img:'assets/images/produtos/torcida.png',  
                 price:3, 
                 quantidade:0,
 
             }]
         },{ 
             id:'6c',
-            name:'Caipirinhas', 
+            name:'Espetinhos', 
             products:[{
-                id:'140',
-                name:'Caipirinha Pinga', 
-                img:'assets/images/produtos/caipirinhapinga.png',  
-                price:22, 
+                id:'130',
+                name:'Salgadinho Fofura', 
+                img:'assets/images/produtos/fofura.png',  
+                price:4, 
                 quantidade:0,
             },{
-                id:'141',
-                name:'Caipirinha Vodka Orloff', 
-                img:'assets/images/produtos/caipirinhaorloff.png',  
-                price:25, 
+                id:'131',
+                name:'Salgadinho Torcida', 
+                img:'assets/images/produtos/torcida.png',  
+                price:3, 
                 quantidade:0,
 
-            },{
-                id:'142',
-                name:'Caipirinha Vodka Smirnoff', 
-                img:'assets/images/produtos/caipirinhasmirnoff.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'143',
-                name:'Caipirinha Rum', 
-                img:'assets/images/produtos/caipirinharum.png',  
-                price:25,
-                quantidade:0, 
-
-            },{
-                id:'145',
-                name:'Caipirinha Cachaça', 
-                img:'assets/images/produtos/caipirinhacachaca.png',  
-                price:23,
-                quantidade:0, 
-
-            },{
-                id:'146',
-                name:'Caipirinha com Duas Frutas', 
-                img:'assets/images/produtos/caipirinhaduasfrutas.png',  
-                price:28,
-                quantidade:0, 
-            },{
-                id:'147',
-                name:'Caipirinha com Pimenta', 
-                img:'assets/images/produtos/caipirinhapimenta.png',  
-                price:26,
-                quantidade:0, 
-            },{
-                id:'149',
-                name:'Caipirinha Saque', 
-                img:'assets/images/produtos/caipirinhasaque.png',  
-                price:23,
-                quantidade:0, 
             }]
         },{ 
-            id:'7c',
-            name:'Batidas', 
-            products:[ ]
+            id:'6c',
+            name:'Espetinhos', 
+            products:[{
+                id:'130',
+                name:'Salgadinho Fofura', 
+                img:'assets/images/produtos/fofura.png',  
+                price:4, 
+                quantidade:0,
+            },{
+                id:'131',
+                name:'Salgadinho Torcida', 
+                img:'assets/images/produtos/torcida.png',  
+                price:3, 
+                quantidade:0,
+
+            }]
         }]
     }
 
