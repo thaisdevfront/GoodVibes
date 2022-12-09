@@ -69,7 +69,10 @@ button.tablinks .img2 {
   border-radius: 0px;
   padding: 0px 0px 5px ;
 }
-
+.tab button img {
+    width: 60px;
+    margin: 15px auto;
+}
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #4CE29E;

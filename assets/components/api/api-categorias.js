@@ -651,7 +651,7 @@ var categoriesContainer=document.getElementById('categories')
    retirada="";
 
     //  url = "https://wa.me/5512982969703?text=" // Seu numero test
-     url = "https://wa.me/551296218661?text=" // Seu numero Produção
+     url = "https://wa.me/5512996218661?text=" // Seu numero Produção
    + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
