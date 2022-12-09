@@ -1,45 +1,54 @@
+console.log( localStorage.getItem("lastname"))
+validateView=document.getElementById('validation')
+
+if (localStorage.getItem("lastname")){
+  validateView.style.display="none"
+  initApp(localStorage.getItem("lastname"))
+}
+
 function validation(event){
 
      event.preventDefault()
      var select=document.getElementById('selectValidate')
      var selectValue=select.options[select.selectedIndex].value
-     var validateView=document.getElementById('validation')
-     var userView=document.getElementById('user')
-       inputUserName=document.getElementById('userName').value
+  inputUserName=document.getElementById('userName').value 
    
        text = select.options[select.selectedIndex].text;
  
 
     if(inputUserName.length>3 & selectValue!=1){
-    
+      localStorage.setItem("lastname", inputUserName);
+      console.log( localStorage.getItem("lastname"))
       retirada=text;
-  
-       userView.innerHTML= `  
-                <div style="
-                padding: 0 15px;
-            "> 
-                  <img src="assets/images/user.png" alt="">
+      initApp(inputUserName)
+   
+    }else{
+      alert('Preencha os Campos')
 
-                    Olá <strong>`+inputUserName +`</strong> Seja Bem-vindo!
-                </div>
-
-                <div class="select" id="selectHome" style="display: none;">
-                    <select>
-                      <option value="0">`+text +`</option>
-                      <option value="1">Selecione a forma de retirada</option>
-                      <option value="2">RETIRE NO BALCÃO</option>
-                      <option value="3">Mesa</option>
-                    </select>Mesa
-            `;
-
-            setTimeout(function init(){
-              validateView.style.display="none"
-              document.getElementsByTagName('body')[0].style.cssText="overflow:auto;"
-           }, 1000);
-            }else{
-              alert('Preencha os Campos')
-
-            }
+    }
 
 
 }
+
+
+function initApp(user){
+
+  console.log("ois")
+  userView=document.getElementById('user')
+
+  userView.innerHTML= `  
+    <div style="padding: 0 15px; "> 
+      <img src="assets/images/user.png" alt="">
+
+        Olá <strong>`+user +`</strong> Seja Bem-vindo!
+    </div>
+
+    
+  `;
+
+  setTimeout(function init(){
+  validateView.style.display="none"
+  document.getElementsByTagName('body')[0].style.cssText="overflow:auto;"
+  }, 1000);
+}
+
