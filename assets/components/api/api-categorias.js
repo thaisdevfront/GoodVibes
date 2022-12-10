@@ -1,5 +1,5 @@
 data = [{ 
-    id:Math.floor(Math.random() * 100).toString(),
+    id:Math.floor(Math.random() * 1000).toString(),
     name:'Para Beber', 
     key:'Comer', 
     image:'assets/images/cat1.png',
@@ -8,105 +8,105 @@ data = [{
             id:'1SC',
             name:'Cervejas', 
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Brahma', 
                 price:4.5, 
                 img:'assets/images/produtos/cervejabrahmalata.png',
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Itaipava', 
                 price:4, 
                 img:'assets/images/produtos/cervejaitaipavalata.png',
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Original', 
                 price:6.5, 
                 img:'assets/images/produtos/cervejaoriginallata.png',
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Heineken Lata', 
                 price:6.5, 
                 img:'assets/images/produtos/cervejaheilata.png',
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Império Lata', 
                 price:4.5,
                 img:'assets/images/produtos/cervejaimperiolata.png',
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Petra', 
                 img:'assets/images/produtos/cervejapetralata.png', 
                 price:5.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Budweiser Lata', 
                 img:'assets/images/produtos/cervejabudlata.png', 
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Itaipava 0%', 
                 img:'assets/images/produtos/cervejaitaipava0.png', 
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Brahma 0%', 
                 img:'assets/images/produtos/cervejabrahma0.png', 
                 price:6,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Heineken Long Neck', 
                 img:'assets/images/produtos/cervejaheilong.png',
                 price:8.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Budweiser Long Neck', 
                 img:'assets/images/produtos/cervejabudlong.png',
                 price:7.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Stella Long Neck', 
                 img:'assets/images/produtos/cervejastellalong.png', 
                 price:8,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Corona Long Neck', 
                 img:'assets/images/produtos/cervejacoronalong.png', 
                 price:9.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Itaipava Malbier Long Neck', 
                 img:'assets/images/produtos/cervejaitaipavalong.png', 
                 price:8,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Brahama Duplo Malte', 
                 img:'assets/images/produtos/cervejabrahmaduplo.png', 
@@ -115,74 +115,74 @@ data = [{
             }]
         
         },{ 
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Whisky',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Black Label', 
                 img:'assets/images/produtos/whiskblacklabel.png',  
                 price:180,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Red Label 1L', 
                 img:'assets/images/produtos/whiskredlabel.png',  
                 price:109,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Famuous One Whisky', 
                 img:'assets/images/produtos/whiskfamuousonel.png',  
                 price:25,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Ballantines Whisky', 
                 img:'assets/images/produtos/Whiskyballantines.png',  
                 price:99,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Old Star Whisky', 
                 img:'assets/images/produtos/whiskoldstar.png',  
                 price:20,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Passport Whisky', 
                 img:'assets/images/produtos/whiskpassport.png',  
                 price:55,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Black Stone Whisky', 
                 img:'assets/images/produtos/whiskblackstone.png',  
                 price:35,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Master Gold Whisky', 
                 img:'assets/images/produtos/wiskgold.png',  
                 price:25,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Jack Daniels Whisky', 
                 img:'assets/images/produtos/whiskjackdaniels.png',  
                 price:120,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Gold Label Whisky', 
                 img:'assets/images/produtos/Whiskyballantines.png',  
@@ -195,56 +195,56 @@ data = [{
             id:'3',
             name:'Fardos',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Skol', 
                 img:'assets/images/produtos/fardiei.png',  
                 price:36,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Brahama', 
                 img:'assets/images/produtos/fardoheineken.png',  
                 price:38,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Império', 
                 img:'assets/images/produtos/fardopetra.png',  
                 price:37,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Heineken', 
                 img:'assets/images/produtos/fardoheineken.png',  
                 price:59,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Original', 
                 img:'assets/images/produtos/fardooriginal.png',  
                 price:54,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Petra', 
                 img:'assets/images/produtos/fardopetra.png',  
                 price:38,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Eisenbahn', 
                 img:'assets/images/produtos/fardiei.png',  
                 price:65,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Spaten', 
                 img:'assets/images/produtos/fardospaten.png',  
@@ -254,11 +254,11 @@ data = [{
         
         
         },{  
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Vodka',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Askov', 
                 img:'assets/images/produtos/askov.png',  
@@ -266,21 +266,21 @@ data = [{
                 price:15,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'ICE', 
                 img:'assets/images/produtos/smirnoffice.png',  
                 price:7.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Sminorf Sabor', 
                 img:'assets/images/produtos/smirnoffsabor.png',  
                 price:58,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Sminorf Lata', 
                 img:'assets/images/produtos/smirnofficelata.png',  
@@ -290,18 +290,18 @@ data = [{
         
 
         },{  
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Gin',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Gin Tanqueray', 
                 img:'assets/images/produtos/gin.png',  
                 price:199,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Gin Rose', 
                 img:'assets/images/produtos/ginrose.png',  
@@ -310,39 +310,39 @@ data = [{
             }]      
         
         },{  
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Pinga',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'51 Pinga', 
                 img:'assets/images/produtos/51.png',  
                 price:18,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Pitu Pinga', 
                 img:'assets/images/produtos/52.png',  
                 price:25,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Velho Barreiro', 
                 img:'assets/images/produtos/53.png',  
                 price:18,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Corote', 
                 img:'assets/images/produtos/54.png',  
                 price:5.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dreher', 
                 img:'assets/images/produtos/55.png',  
@@ -351,25 +351,25 @@ data = [{
             }]       
         
         },{  
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Vinhos',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Vinho Santome', 
                 img:'assets/images/produtos/56.png',  
                 price:19,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Vinho Cantinho do Vale', 
                 img:'assets/images/produtos/57.png',  
                 price:8,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Vinho Draft', 
                 img:'assets/images/produtos/58.png',  
@@ -378,18 +378,18 @@ data = [{
             }]    
      
         },{  
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Energéticos',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Red Bull Energético', 
                 img:'assets/images/produtos/59.png',  
                 price:12.5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Monster Energético', 
                 img:'assets/images/produtos/60.png',  
@@ -398,46 +398,46 @@ data = [{
             }]    
      
         },{  
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Refrigerante',
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Coca Cola Lata', 
                 img:'assets/images/produtos/cocalata.png',  
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Guaraná Lata', 
                 img:'assets/images/produtos/guaranalata.png',  
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fanta Laranja Lata', 
                 img:'assets/images/produtos/fantallata.png',  
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fanta Uva Lata', 
                 img:'assets/images/produtos/fantaulata.png',  
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Tônica Lata', 
                 img:'assets/images/produtos/tonicalata.png',  
                 price:5,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Guaraná 1L', 
                 img:'assets/images/produtos/guarana1l.png',  
@@ -445,7 +445,7 @@ data = [{
                 price:10,
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Coca 2L', 
                 img:'assets/images/produtos/coca2l.png',  
@@ -457,7 +457,7 @@ data = [{
 
         ]
     },{ 
-        id:Math.floor(Math.random() * 100).toString(),
+        id:Math.floor(Math.random() * 1000).toString(),
 
     name:'Conveniência', 
     key:'Beber',
@@ -465,11 +465,11 @@ data = [{
     image2:'assets/images/convenienciawhite1.png',
 
         itens:[{ 
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Mais', 
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 key:'',
                 name:'Gelo de Coco', 
@@ -477,7 +477,7 @@ data = [{
                 price:4,
                 quantidade:0, 
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 key:'',
                 name:'Halls', 
@@ -487,18 +487,18 @@ data = [{
             }]
         
         },{ 
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Salgadinhos', 
             products:[{
-                                id:Math.floor(Math.random() * 100).toString(),
+                                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Salgadinho Fofura', 
                 img:'assets/images/produtos/fofura.png',  
                 price:4, 
                 quantidade:0,
             },{
-                                id:Math.floor(Math.random() * 100).toString(),
+                                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Salgadinho Torcida', 
                 img:'assets/images/produtos/torcida.png',  
@@ -507,18 +507,18 @@ data = [{
 
             }]
         },{ 
-            id:Math.floor(Math.random() * 100).toString()
+            id:Math.floor(Math.random() * 1000).toString()
             ,
             name:'Espetinhos', 
             products:[{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Salgadinho Fofura', 
                 img:'assets/images/produtos/fofura.png',  
                 price:4, 
                 quantidade:0,
             },{
-                id:Math.floor(Math.random() * 100).toString(),
+                id:Math.floor(Math.random() * 1000).toString(),
                 
                 name:'Salgadinho Torcida', 
                 img:'assets/images/produtos/torcida.png',  
@@ -527,18 +527,18 @@ data = [{
 
             }]
         },{ 
-            id:Math.floor(Math.random() * 100).toString(),
+            id:Math.floor(Math.random() * 1000).toString(),
 
             name:'Espetinhos', 
             products:[{
-                                id:Math.floor(Math.random() * 100).toString(),
+                                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Salgadinho Fofura', 
                 img:'assets/images/produtos/fofura.png',  
                 price:4, 
                 quantidade:0,
             },{
-                                id:Math.floor(Math.random() * 100).toString(),
+                                id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Salgadinho Torcida', 
                 img:'assets/images/produtos/torcida.png',  
@@ -729,7 +729,7 @@ var categoriesContainer=document.getElementById('categories')
    retirada="";
 
     //  url = "https://wa.me/5512982969703?text=" // Seu numero test
-     url = "https://wa.me/5512996218661?text=" // Seu numero Produção
+     url = "https://wa.me/5512996048083?text=" // Seu numero Produção
    + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
