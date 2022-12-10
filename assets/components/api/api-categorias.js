@@ -108,7 +108,7 @@ data = [{
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Brahama Duplo Malte', 
+                name:'Brahma Duplo Malte', 
                 img:'assets/images/produtos/cervejabrahmaduplo.png', 
                 price:5, 
                 quantidade:0,
@@ -204,15 +204,15 @@ data = [{
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Fardo Brahama', 
-                img:'assets/images/produtos/fardoheineken.png',  
+                name:'Fardo Brahma', 
+                img:'assets/images/produtos/fardobrahma.png',  
                 price:38,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Império', 
-                img:'assets/images/produtos/fardopetra.png',  
+                img:'assets/images/produtos/fardoimperio.png',  
                 price:37,
                 quantidade:0,
             },{
