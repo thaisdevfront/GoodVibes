@@ -1,9 +1,10 @@
-console.log( localStorage.getItem("lastname"))
+ 
 validateView=document.getElementById('validation')
 
 if (localStorage.getItem("lastname")){
   validateView.style.display="none"
   initApp(localStorage.getItem("lastname"))
+  inputUserName=localStorage.getItem("lastname")
 }
 
 function validation(event){
@@ -18,7 +19,6 @@ function validation(event){
 
     if(inputUserName.length>3 & selectValue!=1){
       localStorage.setItem("lastname", inputUserName);
-      console.log( localStorage.getItem("lastname"))
       retirada=text;
       initApp(inputUserName)
    
@@ -32,8 +32,7 @@ function validation(event){
 
 
 function initApp(user){
-
-  console.log("ois")
+ 
   userView=document.getElementById('user')
 
   userView.innerHTML= `  
