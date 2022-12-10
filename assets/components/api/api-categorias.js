@@ -198,7 +198,7 @@ data = [{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Fardo Skol', 
-                img:'assets/images/produtos/fardiei.png',  
+                img:'assets/images/produtos/fardoskol.png',  
                 price:36,
                 quantidade:0,
             },{
