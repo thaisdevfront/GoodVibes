@@ -69,7 +69,7 @@
     transition: .25s all ease;
     pointer-events: none;
     font-size: 8px;
-    color: #f39c12;
+    color: #4CE29E;
 
   }
   .user  .select::after {
@@ -79,7 +79,7 @@
   }
   /* Transition */
   .select:hover::after {
-    color: #f39c12;
+    color: #4CE29E;
   }
   
   /* Other styles*/
