@@ -6,9 +6,12 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
     },
+    loop:true,
+
   });
   var swiper = new Swiper(".mySwiperTabs", {
           slidesPerView: 3,
+          loop:true,
           cssMode: true,
            autoplay: {
           delay: 5500,
