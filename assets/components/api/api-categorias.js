@@ -282,7 +282,7 @@ data = [{
             products:[{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Copão com Red Bull + 10R$', 
+                name:'Adicional + Red Bull', 
                 img:'assets/images/produtos/coporedlabelx.png',  
                 price:10,
                 quantidade:0, 
@@ -549,29 +549,29 @@ data = [{
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Contine', 
-                img:'assets/images/produtos/55x.png',  
+                name:'Contini', 
+                img:'assets/images/produtos/pingacontini.png',  
                 price:35,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Jurupinga', 
-                img:'assets/images/produtos/55x.png',  
+                img:'assets/images/produtos/pingajurupinga.png',  
                 price:35,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'São Francisco', 
-                img:'assets/images/produtos/55.png',  
+                img:'assets/images/produtos/pingasaofrancisco.png',  
                 price:28,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Luizence', 
-                img:'assets/images/produtos/55.png',  
+                img:'assets/images/produtos/pingaluizence.png',  
                 price:32,
                 quantidade:0,
             }]       
@@ -584,14 +584,14 @@ data = [{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Copão de Smirnoff', 
-                img:'assets/images/produtos/56x.png',  
+                img:'assets/images/produtos/coposmirnoff.png',  
                 price:15,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Copão de Askov de Sabor', 
-                img:'assets/images/produtos/57.png',  
+                img:'assets/images/produtos/copoaskovsabor.png',  
                 price:10,
                 quantidade:0,
             }]    
@@ -604,56 +604,56 @@ data = [{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose Contine', 
-                img:'assets/images/produtos/56x.png',  
+                img:'assets/images/produtos/dosecontini.png',  
                 price:7,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose Dreher', 
-                img:'assets/images/produtos/57x.png',  
+                img:'assets/images/produtos/dosedreher.png',  
                 price:4,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose Pitu', 
-                img:'assets/images/produtos/vinhocatuabax.png',  
+                img:'assets/images/produtos/dosepitu.png',  
                 price:4,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose 51', 
-                img:'assets/images/produtos/vinhogarrafa1lx.png',  
+                img:'assets/images/produtos/dose51.png',  
                 price:3,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose Jurupinga', 
-                img:'assets/images/produtos/vinhodraftx.png',  
+                img:'assets/images/produtos/dosejurupinga.png',  
                 price:7,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose São Francisco', 
-                img:'assets/images/produtos/vinhodraftx.png',  
+                img:'assets/images/produtos/dosesaofrancisco.png',  
                 price:5,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose Velho Barreiro', 
-                img:'assets/images/produtos/vinhodraftx.png',  
+                img:'assets/images/produtos/dosevelhobarreiro.png',  
                 price:3,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Dose Luizence', 
-                img:'assets/images/produtos/vinhodraftx.png',  
+                img:'assets/images/produtos/doseluizence.png',  
                 price:6,
                 quantidade:0,
             }]    
@@ -729,7 +729,7 @@ data = [{
         },{  
             id:Math.floor(Math.random() * 1000).toString(),
 
-            name:'Refrigerante',
+            name:'Refrigerantes',
             products:[{
                 id:Math.floor(Math.random() * 1000).toString(),
 
@@ -1196,21 +1196,32 @@ var categoriesContainer=document.getElementById('categories')
             
 
             <div class="select">
-            <img src="assets/images/inputs/archive.png" style="margin-top: 16px;"/>
-
+                <img src="assets/images/inputs/archive.png" />
                 <select onchange="formaRetirada()" id="selectCheckout" > 
-
                     <option value="1">Selecione a forma de retirada</option>
+                    <option value="delivery">Delivery</option>
                     <option value="balcao">Balcão</option>
                     <option value="mesa">Mesa</option>
                 </select>
             </div>
-            <div class="select"  style="display:none;">
-            <img src="assets/images/inputs/mesa.png" style="margin-top: 16px;"/ >
 
+            <div id="locationCheckout" style="display: block;position: relative;">
+            <label>
+            Endereço:
+            </label>
+                <img src="assets/images/inputs/archive.png" style="margin-top: 35px;"/>
+
+            <input id="userName" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu endereço" type="text" required="">
+
+            </div>
+            <div class="select"  style="display:none;">
+            <img src="assets/images/inputs/mesa.png" style="margin-top: 35px;"/ >
+            <label>
+            Selecione a mesa:
+            </label>
             <select  id="selectMesaCheckout" > 
 
-                <option value="0">Selecione a Mesa</option>
+                <option value="0">Mesa</option>
                 <option value="1">01</option>
                 <option value="2">02</option>
                 <option value="3">03</option>
@@ -1240,18 +1251,25 @@ var categoriesContainer=document.getElementById('categories')
         
         `;
         selectCheck=document.getElementById('selectCheckout')
+        locationCheckout=document.getElementById('locationCheckout')
         optionsCheck=selectCheck.options[selectCheck.selectedIndex].text
         retiradavalue=0
         // VALIDA CAMPO HOME
-        if(text=="Mesa"){
+        console.log(text)
+        if(text=="mesa"){
             mesaCheck=document.getElementById('selectMesaCheckout')
             mesaCheck.parentNode.style.cssText="display:block"
+        }
+        if(text=="Delivery"){
+            locationCheckout=document.getElementById('locationCheckout')
+            locationCheckout.style.cssText="display:block"
         }
 
         // VALIDA CAMPO CHECKOUT 
         if(optionsCheck=="Mesa"){
             
             mesaCheck.parentNode.style.cssText="display:block"
+            locationCheckout.style.cssText="display:none"
 
         }
         containerCheckout.style.cssText="display:block"
@@ -1261,12 +1279,19 @@ var categoriesContainer=document.getElementById('categories')
        
         retiradavalue=document.getElementById('selectCheckout').value
         mesaCheck=document.getElementById('selectMesaCheckout')
-
+        locationCheckout=document.getElementById('locationCheckout')
+ 
         if(retiradavalue=='mesa'){
             mesaCheck.parentNode.style.cssText="display:block"
+            locationCheckout.style.cssText="display:none"
 
         }else if(retiradavalue=='balcao'){
             mesaCheck.parentNode.style.cssText="display:none"
+            locationCheckout.style.cssText="display:none"
+
+        }else if(retiradavalue=='delivery'){
+            mesaCheck.parentNode.style.cssText="display:none"
+            locationCheckout.style.cssText="display:block"
 
         }
 

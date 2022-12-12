@@ -99,7 +99,7 @@ form img {
 }
 
 
-@media(max-height:510px){
+@media(max-height:590px){
     .validation .content {
      transition: .3s;
         padding-top: 20px;

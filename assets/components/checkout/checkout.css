@@ -9,7 +9,7 @@ div#checkout {
     padding: 60px 0;
 }
 div#checkout select, div#checkout textarea {
-    border: 1px solid #73859E;
+    border: 1px solid #4ce29e;
 }
 textarea {
     width: 100%;
@@ -17,7 +17,7 @@ textarea {
     border-radius: 15px;
     /* padding-left: 38px; */
     padding-top: 10px;
-    color: #73859E;
+    color: #4CE29E;
     margin: 6px auto;
     font-family: 'Lexend Deca', sans-serif;
     font-weight:300;
@@ -60,9 +60,10 @@ div#checkout form {
     width: 80%;
     margin: 0 auto;
 }
-div#checkout form div {
-    margin: 5px auto;
-}
+ 
 div#checkout .select {
     position: relative;
+}
+div#locationCheckout{
+    position:relative;
 }
