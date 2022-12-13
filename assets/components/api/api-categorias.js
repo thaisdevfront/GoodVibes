@@ -283,7 +283,7 @@ data = [{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Adicional + Red Bull', 
-                img:'assets/images/produtos/coporedlabelx.png',  
+                img:'assets/images/produtos/energeticoredbull.png',  
                 price:10,
                 quantidade:0, 
             },{
@@ -417,18 +417,18 @@ data = [{
         },{  
             id:Math.floor(Math.random() * 1000).toString(),
 
-            name:'Vodka',
+            name:'Vodkas',
             products:[{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Vodka Sminorf Ice Long Neck', 
+                name:'Vodka Smirnoff Ice Long Neck', 
                 img:'assets/images/produtos/smirnoffice.png',  
                 price:13,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Vodka Sminorf Lata', 
+                name:'Vodka Smirnorff Lata', 
                 img:'assets/images/produtos/smirnofficelata.png',  
                 price:9.5,
                 quantidade:0,
@@ -444,13 +444,13 @@ data = [{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Vodka Ousadia', 
-                img:'assets/images/produtos/smirnofficelatax.png',  
+                img:'assets/images/produtos/ousadia.png',  
                 price:7.5,
                 quantidade:0,
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
-                name:'Vodka Sminorf Sabor', 
+                name:'Vodka Smirnorff Sabor', 
                 img:'assets/images/produtos/smirnoffsabor.png',  
                 price:58,
                 quantidade:0,
@@ -470,7 +470,7 @@ data = [{
 
                 price:18,
                 quantidade:0,
-            }]     
+            },]     
         
 
         },{  
@@ -799,7 +799,7 @@ data = [{
         },{  
             id:Math.floor(Math.random() * 1000).toString(),
 
-            name:'Água',
+            name:'Águas',
             products:[{
                 id:Math.floor(Math.random() * 1000).toString(),
 
