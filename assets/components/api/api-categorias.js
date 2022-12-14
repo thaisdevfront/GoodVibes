@@ -1111,7 +1111,7 @@ var categoriesContainer=document.getElementById('categories')
         apiData.itens.map((itensMap)=>{     
              itensMap.products.map((productsMap)=>{ 
                
-              console.log(productsMap)
+              console.log(productsMap.name)
               if(productsMap.quantidade>0){
                 cartQtd+=productsMap.quantidade
                 itensTotal+=productsMap.quantidade
@@ -1314,7 +1314,7 @@ var categoriesContainer=document.getElementById('categories')
 
         }else if(retiradavalue=='delivery'){
              
-            retirada=retiradavalue+" Endereço "+inputLocationCheckout
+            retirada=retiradavalue+"%0a"+ " *Endereço "+inputLocationCheckout+"*"
             console.log(inputLocationCheckout)
            
 
