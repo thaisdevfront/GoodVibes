@@ -213,14 +213,14 @@ data = [{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Whisky Buchanans', 
-                img:'assets/images/produtos/Whiskybuchanans.png',  
+                img:'assets/images/produtos/whiskybuchanans.png',  
                 price:200,
                 quantidade:0, 
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
 
                 name:'Whisky Gold Label', 
-                img:'assets/images/produtos/Whiskygoldlabel.png',  
+                img:'assets/images/produtos/whiskygoldlabel.png',  
                 price:250,
                 quantidade:0, 
             },{
