@@ -1111,7 +1111,7 @@ var categoriesContainer=document.getElementById('categories')
         apiData.itens.map((itensMap)=>{     
              itensMap.products.map((productsMap)=>{ 
                
-  
+              console.log(productsMap)
               if(productsMap.quantidade>0){
                 cartQtd+=productsMap.quantidade
                 itensTotal+=productsMap.quantidade
@@ -1211,7 +1211,7 @@ var categoriesContainer=document.getElementById('categories')
             </label>
                 <img src="assets/images/location.png" style="margin-top: 35px;"/>
 
-            <input id="userName" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Rua, numero, bairro" type="text" required="">
+            <input id="locationInputCheckout" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Rua, numero, bairro" type="text" required="">
 
             </div>
             <div class="select"  style="display:none;">
@@ -1301,6 +1301,7 @@ var categoriesContainer=document.getElementById('categories')
         event.preventDefault() 
     
         mesaCheck=document.getElementById('selectMesaCheckout').value
+        inputLocationCheckout=document.getElementById('locationInputCheckout').value
 
       if(retiradavalue=='mesa'){
               
@@ -1313,8 +1314,9 @@ var categoriesContainer=document.getElementById('categories')
 
         }else if(retiradavalue=='delivery'){
              
-            console.log(retirada)
-            console.log(retiradavalue)
+            retirada=retiradavalue+" Endereço "+inputLocationCheckout
+            console.log(inputLocationCheckout)
+           
 
         }else{
             alert('Preencha os Campos')
@@ -1330,7 +1332,7 @@ var categoriesContainer=document.getElementById('categories')
         + "%0a" // Quebra de linhas 
         +comments
  
-        // location.href = url
+        location.href = url
     }
 
     closeCheckout=()=>{ 
