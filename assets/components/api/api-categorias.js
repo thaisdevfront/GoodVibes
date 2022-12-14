@@ -193,7 +193,7 @@ data = [{
 
                 name:'Whisky Black Label', 
                 img:'assets/images/produtos/whiskblacklabel.png',  
-                price:125,
+                price:190,
                 quantidade:0, 
             },{
                 id:Math.floor(Math.random() * 1000).toString(),
@@ -1196,7 +1196,7 @@ var categoriesContainer=document.getElementById('categories')
             
 
             <div class="select">
-                <img src="assets/images/inputs/archive.png" />
+                <img src="assets/images/archive.png" />
                 <select onchange="formaRetirada()" id="selectCheckout" > 
                     <option value="1">Selecione a forma de retirada</option>
                     <option value="delivery">Delivery</option>
@@ -1207,11 +1207,11 @@ var categoriesContainer=document.getElementById('categories')
 
             <div id="locationCheckout" style="display: block;position: relative;">
             <label>
-            Endereço:
+            Digite endereço de entrega:
             </label>
-                <img src="assets/images/inputs/archive.png" style="margin-top: 35px;"/>
+                <img src="assets/images/location.png" style="margin-top: 35px;"/>
 
-            <input id="userName" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu endereço" type="text" required="">
+            <input id="userName" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Rua, numero, bairro" type="text" required="">
 
             </div>
             <div class="select"  style="display:none;">
@@ -1233,7 +1233,7 @@ var categoriesContainer=document.getElementById('categories')
             <label> 
                 Observações do Pedido:
             </label>
-            <img src="assets/images/inputs/chat.png" style="margin-top: 38px;">
+            <img src="assets/images/chat.png" style="margin-top: 38px;">
 
             <textarea id="areaObs" placeholder="Digite observações do seu pedido"></textarea>
             
@@ -1307,14 +1307,17 @@ var categoriesContainer=document.getElementById('categories')
                 retirada=retiradavalue+mesaCheck
                 console.log(retirada)
 
-        }else if(retiradavalue=='balcao'){
-            // mesaCheck.style.cssText="display:none"
-            retirada=retiradavalue
+        }else if(retiradavalue=='balcao'){ 
 
+            retirada=retiradavalue 
             retirada=text
+
+        }else if(retiradavalue=='delivery'){
+             
 
         }else{
             alert('Preencha os Campos')
+            retirada=retiradavalue 
 
         }
 
@@ -1326,7 +1329,7 @@ var categoriesContainer=document.getElementById('categories')
         + "%0a" // Quebra de linhas 
         +comments
  
-        location.href = url
+        // location.href = url
     }
 
     closeCheckout=()=>{ 
