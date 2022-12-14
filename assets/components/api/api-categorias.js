@@ -1304,8 +1304,7 @@ var categoriesContainer=document.getElementById('categories')
 
       if(retiradavalue=='mesa'){
               
-                retirada=retiradavalue+mesaCheck
-                console.log(retirada)
+            retirada=retiradavalue+mesaCheck
 
         }else if(retiradavalue=='balcao'){ 
 
@@ -1314,6 +1313,8 @@ var categoriesContainer=document.getElementById('categories')
 
         }else if(retiradavalue=='delivery'){
              
+            console.log(retirada)
+            console.log(retiradavalue)
 
         }else{
             alert('Preencha os Campos')
